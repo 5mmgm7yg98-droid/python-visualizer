@@ -37,9 +37,9 @@ typeの意味:
 
 const TYPE_STYLES = {
   normal: { bg: "#f7f7f7", border: "#e0e0e0", label: null },
-  loop: { bg: "#eff6ff", border: "#3b82f6", label: "🔁 ループ" },
-  condition_true: { bg: "#f0fdf4", border: "#22c55e", label: "✅ True" },
-  condition_false: { bg: "#fff7ed", border: "#f97316", label: "❌ False" },
+  loop: { bg: "#eff6ff", border: "#3b82f6", label: " ループ" },
+  condition_true: { bg: "#f0fdf4", border: "#22c55e", label: " True" },
+  condition_false: { bg: "#fff7ed", border: "#f97316", label: " False" },
 };
 
 export default function App() {
