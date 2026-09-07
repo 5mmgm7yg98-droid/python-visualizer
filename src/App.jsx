@@ -108,7 +108,7 @@ export default function App() {
     <div style={{ padding: 24, fontFamily: "sans-serif", maxWidth: 780 }}>
       <div style={{ marginBottom: 16 }}>
         <h2 style={{ margin: "0 0 4px", fontSize: 18, color: "#1e40af" }}>
-          🐍 Python アルゴリズム学習支援ツール
+           Python アルゴリズム学習支援ツール
         </h2>
         <p style={{ margin: 0, fontSize: 12, color: "#888" }}>
           Pythonコードを入力するとAIがステップごとに解析・説明します
@@ -123,7 +123,7 @@ export default function App() {
         style={{
           width: "100%", fontFamily: "monospace", fontSize: 13,
           padding: 12, borderRadius: 8, border: "1px solid #ddd",
-          background: "#f9f9f9", boxSizing: "border-box", resize: "vertical", outline: "none",
+          background: "#f9f9f9", color:"#222",boxSizing: "border-box", resize: "vertical", outline: "none",
         }}
       />
 
@@ -139,7 +139,7 @@ export default function App() {
           marginTop: 8, marginBottom: 20,
         }}
       >
-        {loading ? "AIが解析中..." : "🔍 AIで解析する"}
+        {loading ? "AIが解析中..." : " AIで解析する"}
       </button>
 
       {error && (
